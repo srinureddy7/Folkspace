@@ -1,0 +1,14 @@
+export { default as SPONSOR1 } from "./sponsor1.png";
+export { default as SPONSOR2 } from "./sponsor2.png";
+export { default as SPONSOR3 } from "./sponsor3.png";
+export { default as SPONSOR4 } from "./sponsor4.png";
+export { default as SPONSOR5 } from "./sponsor5.png";
+export { default as SPONSOR6 } from "./sponsor6.png";
+export { default as SPONSOR7 } from "./sponsor7.png";
+export { default as SPONSOR8 } from "./sponsor8.png";
+export { default as SPONSOR9 } from "./sponsor9.png";
+export { default as SPONSOR10 } from "./sponsor10.png";
+export { default as SPONSOR11 } from "./sponsor11.png";
+export { default as SPONSOR12 } from "./sponsor12.png";
+export { default as SPONSOR13 } from "./sponsor13.png";
+export { default as SPONSOR14 } from "./sponsor14.png";

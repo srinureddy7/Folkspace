@@ -1,0 +1,57 @@
+import { SVGProps } from "react";
+import { string } from "yup/lib/locale";
+
+export type IconType = JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>;
+
+export type User = {
+  uid: string;
+  id?: string;
+  approved?: boolean;
+  role?: string;
+  displayName?: string;
+  phoneNumber?: string;
+  location?: string;
+  eventName?: string;
+  startDate?: string;
+  endDate?: string;
+  age?: string;
+  gender?: string;
+  organizerName?: string;
+  currentSchool?: string;
+  jobTitle?: string;
+  desc?: string;
+  isRead?: boolean;
+  isAttendees?: boolean;
+  title?: string;
+  country?: string;
+  city?: string;
+  educationLevel?: string;
+  company?: string;
+  nationality?: string;
+  email: string;
+  currentEducation?: string;
+  timestamp?: string;
+  institutionName?: string;
+  interestedIn?: string;
+  organizerID?: string;
+  password: string;
+  photoURL?: string;
+  createdAt?: string;
+  updatedAt?: string;
+  isBlocked?: boolean;
+  photoRef?: string;
+  logo?: string;
+  website?: string;
+  phone?: any;
+  fileRef?: string;
+  eventId?: string;
+  message?: string;
+  isOnline?: boolean;
+  profileImage?: string;
+  ticketId?: string;
+  platform?: "ios" | "android" | "unrecognized";
+  web?: {
+    OS: "unknown" | "Windows Phone" | "Android" | "iOS";
+    device: "Windows" | "macOS" | "unknown";
+  };
+};
